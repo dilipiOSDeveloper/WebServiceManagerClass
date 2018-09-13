@@ -2,16 +2,17 @@
 //  WebServiceManagerClassUITests.swift
 //  WebServiceManagerClassUITests
 //
-//  Created by Vikas Pundora on 13/09/18.
-//  Copyright © 2018 Vikas Pundora. All rights reserved.
-//
+//  Created by Dilip on 13/09/18.
 
 import XCTest
 
 class WebServiceManagerClassUITests: XCTestCase {
-        
+    
+    
+    
     override func setUp() {
         super.setUp()
+        
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
         

@@ -2,9 +2,7 @@
 //  AppDelegate.swift
 //  WebServiceManagerClass
 //
-//  Created by Vikas Pundora on 13/09/18.
-//  Copyright © 2018 Vikas Pundora. All rights reserved.
-//
+//  Created by Dilip on 13/09/18.
 
 import UIKit
 
@@ -16,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        
+        
         return true
     }
 
